@@ -1,0 +1,20 @@
+.fruits {
+    background-color: #ffffffee;
+    border: 1px solid #4CAF50;
+    border-left: 8px solid #4CAF50;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    font-style: italic;
+    font-size: 18px;
+    color: #2e7d32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.fruits:hover {
+    background-color: #f0fff0;
+}
